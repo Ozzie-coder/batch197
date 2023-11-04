@@ -1,0 +1,32 @@
+package deneme_2;
+
+public class day09_loops {
+
+    public static void main(String[] args) {
+
+    //Example : Type code to find the sum of the digits of an integer
+    //          587 ===> 5+8+7=20
+
+    int i= 587;
+    int sum = 0;
+    while (i>0){
+
+        sum = sum + i%10;
+
+        i/=10;
+    }
+        System.out.println(sum);
+
+    //Example : Type a code to print table of multiplication for a given number
+    // 3 ----> 3*1=3 3*2=6 3*3=9....3*10=30
+
+    int num = 3;
+    int k= 1;
+    while(k<11){
+        System.out.println(num +"*"+ "="+ num*k);
+        k++;
+    }
+    }
+
+
+}
